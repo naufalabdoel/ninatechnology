@@ -442,12 +442,7 @@ ty min :)`;
                 
                 {/* Generated Image Asset */}
                 <div className="w-full h-full rounded-xl overflow-hidden relative">
-                  <img
-                    src="/src/assets/images/hijab_developer_hero_1782491924399.jpg"
-                    alt="Tim Ninatech Professional Developer"
-                    className="w-full h-full object-cover scale-102 hover:scale-105 transition-transform duration-700"
-                    referrerPolicy="no-referrer"
-                  />
+                  <img src="/images/hijab_developer_hero_1782491924399.jpg" alt="Tim Ninatech Professional Developer" className="w-full h-full object-cover scale-102 hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
                   {/* Subtle dark gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 </div>
