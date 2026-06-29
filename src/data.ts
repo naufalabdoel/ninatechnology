@@ -36,26 +36,23 @@ export interface PricingPlan {
   features: string[];
 }
 
-export const PROJECTS: Project[] = [
-  {
-    id: "nina-diamond",
-    title: "Nina Diamond - Top Up Games",
-    category: "Web App",
-    description: "Website modern untuk top up game online, dilengkapi dengan fitur transaksi otomatis, pembayaran instan terlengkap, dan visual gaming yang futuristik.",
-    image: "/images/Full%20Page%20Preview.png"
-    tags: ["Vite", "React", "Tailwind CSS"],
-    link: "https://nina-diamond-topup-games-website-in.vercel.app/"
-  },
-  {
-    id: "ninapedia",
-    title: "Ninapedia - Ensiklopedia Bebas",
-    category: "Web App",
-    description: "Platform ensiklopedia digital interaktif dengan sistem pencarian pintar, manajemen konten yang rapi, serta visual modern berstandar premium.",
-    image: "public/images/screencapture-id-wikipedia-org-wiki-Halaman-Utama-2026-06-23-16_10_20.png"
-    tags: ["React", "Typescript", "Tailwind CSS"],
-    link: "https://ninapedia-ensiklopedia.vercel.app/"
-  },
-];
+export const PROJECTS : Project [ ] = [ { 
+    id : "nina-diamond" , 
+    title : "Nina Diamond - Top Up Games" , 
+    category : "Web App" , 
+    description : "..." , 
+    image : "/Full%20Page%20Preview.png" , // Cukup gunakan / jika file langsung di bawah folder public
+    tags : [ "Vite" , "React" , "Tailwind CSS" ] , 
+    link : "..." 
+} , { 
+    id : "ninapedia" , 
+    title : "Ninapedia - Ensiklopedia Bebas" , 
+    category : "Web App" , 
+    description : "..." , 
+    image : "/screencapture-id-wikipedia-org-wiki-Halaman-Utama-2026-06-23-16_10_20.png" , // Hapus kata "public" di depan
+    tags : [ "React" , "Typescript" , "Tailwind CSS" ] , 
+    link : "..." 
+} ] ;
 
 export const TESTIMONIALS: Testimonial[] = [
   {
