@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     title: "Ninapedia - Ensiklopedia Bebas",
     category: "Web App",
     description: "Platform ensiklopedia digital interaktif dengan sistem pencarian pintar, manajemen konten yang rapi, serta visual modern berstandar premium.",
-    image: "/images/public/images/screencapture-id-wikipedia-org-wiki-Halaman-Utama-2026-06-23-16_10_20.png"
+    image: "public/images/screencapture-id-wikipedia-org-wiki-Halaman-Utama-2026-06-23-16_10_20.png"
     tags: ["React", "Typescript", "Tailwind CSS"],
     link: "https://ninapedia-ensiklopedia.vercel.app/"
   },
